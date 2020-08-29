@@ -10,6 +10,7 @@
   --secondary-color: #43dbe4;
   --primary-color: #e4436f;
   --black-color: #333;
+  --white-color: #fff;
 }
 html {
   font-size: 62.5%;
@@ -18,4 +19,5 @@ html {
 
 .layout {
   display: flex;
+  width: 100%;
 }

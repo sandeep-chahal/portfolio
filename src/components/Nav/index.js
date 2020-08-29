@@ -15,19 +15,19 @@ const Nav = () => {
       <ul>
         <li>
           <Link to="/" activeClassName="active">
-            <img src="home.svg" />
+            <img alt="home" src="home.svg" />
             <span>Home</span>
           </Link>
         </li>
         <li>
-          <Link to="Projects" activeClassName="active">
-            <img src="project.svg" />
+          <Link to="/Projects" activeClassName="active">
+            <img alt="projects" src="project.svg" />
             <span>Projects</span>
           </Link>
         </li>
         <li>
-          <Link to="Contact" activeClassName="active">
-            <img src="user.svg" />
+          <Link to="/Contact" activeClassName="active">
+            <img alt="contact" src="user.svg" />
             <span>Contact</span>
           </Link>
         </li>

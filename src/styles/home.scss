@@ -1,0 +1,54 @@
+.home {
+  margin-top: 15rem;
+  margin-left: 12rem;
+  color: var(--black-color);
+
+  h1 {
+    font-size: 6rem;
+  }
+  p {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    width: 80%;
+    line-height: 2.5rem;
+  }
+  .name {
+    color: var(--primary-color);
+    &:hover {
+      text-shadow: 0.5rem 0.2rem var(--secondary-color);
+    }
+  }
+  .hightlight {
+    color: var(--primary-color);
+  }
+  .btns {
+    display: flex;
+    margin-top: 2rem;
+    button {
+      padding: 0.7rem 1rem;
+      border: none;
+      outline: none;
+      font-family: "Aldrich", serif;
+      margin-right: 2rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    .filled-btn {
+      background-color: var(--primary-color);
+      color: var(--white-color);
+    }
+  }
+  .social-links {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    img {
+      width: 2rem;
+      opacity: 0.7;
+      margin-right: 2rem;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
