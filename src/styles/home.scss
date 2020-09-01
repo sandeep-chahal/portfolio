@@ -3,6 +3,10 @@
   margin-left: 12rem;
   color: var(--black-color);
 
+  @media (max-width: 600px) {
+    margin: 0;
+  }
+
   h1 {
     font-size: 6rem;
   }
@@ -18,7 +22,7 @@
       text-shadow: 0.5rem 0.2rem var(--secondary-color);
     }
   }
-  .hightlight {
+  .highlight {
     color: var(--primary-color);
   }
   .btns {

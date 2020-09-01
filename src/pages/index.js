@@ -19,10 +19,10 @@ export default function Home() {
           </div>
         </h1>
         <p>
-          A <span className="hightlight">full-stack developer</span>, passionate
+          A <span className="highlight">full-stack developer</span>, passionate
           about technology, solving problems and eager to learn new things. I
           love writing{" "}
-          <span className="hightlight">clean and efficient code</span>. If you
+          <span className="highlight">clean and efficient code</span>. If you
           don't see green dots on github contributions chart that means am
           trying out new stuff.
         </p>
