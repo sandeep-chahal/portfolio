@@ -1,11 +1,16 @@
-import React from "react"
+import React, { Fragment } from "react"
 import "./style.scss"
 
 import DesktopNav from "./desktopNav"
 import MobileNav from "./mobileNav"
 
 const Nav = () => {
-  return window.innerWidth < 600 ? <MobileNav /> : <DesktopNav />
+  return (
+    <Fragment>
+      <MobileNav />
+      <DesktopNav />
+    </Fragment>
+  )
 }
 
 export default Nav

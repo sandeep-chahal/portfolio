@@ -1,4 +1,7 @@
 .desktop-nav {
+  @media (max-width: 600px) {
+    display: none;
+  }
   display: flex;
   flex-direction: column;
   background-color: var(--nav-bg-color);
@@ -62,6 +65,9 @@
 }
 
 .mobile-nav {
+  @media (min-width: 600px) {
+    display: none;
+  }
   transform: translateY(-50%);
   min-width: 100vw;
   align-self: flex-start;
@@ -115,7 +121,7 @@
   }
 }
 
-nav.open + main {
+nav.open ~ main {
   transform: translateY(0rem);
 }
 
