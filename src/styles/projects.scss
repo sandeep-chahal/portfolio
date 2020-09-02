@@ -2,6 +2,11 @@
   margin: 5rem 0 0 20rem;
   color: var(--black-color);
 
+  @media (max-width: 600px) {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
   h1 {
     font-size: 4rem;
     margin-bottom: 3rem;
@@ -9,11 +14,19 @@
   .project {
     display: flex;
     margin-bottom: 7rem;
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+
     img {
       width: 40rem;
       height: 22rem;
       object-position: center;
       object-fit: cover;
+      @media (max-width: 600px) {
+        width: 80vw;
+        height: auto;
+      }
     }
     .about {
       display: flex;
@@ -21,12 +34,20 @@
       justify-content: space-evenly;
       width: 40rem;
       margin-left: 3rem;
+      @media (max-width: 600px) {
+        width: 80vw;
+        margin-left: 0;
+        margin-top: 1rem;
+      }
       h2 {
         font-size: 3rem;
         color: var(--primary-color);
       }
       p {
         font-size: 2rem;
+         @media (max-width: 600px) {
+             margin: 1rem 0;
+         }
       }
       a,
       a:active {
