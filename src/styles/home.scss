@@ -45,22 +45,31 @@
       }
     }
 
-    button {
-      padding: 0.7rem 1rem;
-      border: none;
-      outline: none;
-      font-family: "Aldrich", serif;
+    a {
+      padding: 1rem 1rem;
       margin-right: 2rem;
       font-size: 1.5rem;
+      text-align: center;
       cursor: pointer;
+      text-decoration: none;
+      color: var(--black-color);
+      &:visited,
+      a:active {
+        color: var(--black-color);
+      }
       @media (max-width: 600px) {
         font-size: 2rem;
-        padding: 1.5rem;
       }
+      background-color: var(--gray-color);
+      margin-bottom: 2rem;
     }
     .filled-btn {
       background-color: var(--primary-color);
       color: var(--white-color);
+      &:visited,
+      a:active {
+        color: var(--white-color);
+      }
     }
   }
   .social-links {

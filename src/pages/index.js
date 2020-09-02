@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import "../styles/home.scss"
+import { Link } from "gatsby"
 
 export default function Home() {
   return (
@@ -41,8 +42,16 @@ export default function Home() {
           </a>
         </div>
         <div className="btns">
-          <button className="outlined-btn">Resume</button>
-          <button className="filled-btn">Contact</button>
+          <a
+            href="https://portflio.imfast.io/Sandeep_Chahal_Resume.pdf"
+            target="_blank"
+            className="outlined-btn"
+          >
+            Resume
+          </a>
+          <Link to="/Contact" className="filled-btn">
+            Contact
+          </Link>
         </div>
       </div>
     </Layout>
