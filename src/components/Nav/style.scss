@@ -127,5 +127,7 @@ nav.open ~ main {
 
 main {
   transition: all 0.2s ease-out;
-  transform: translateY(-8rem);
+  @media (max-width: 600px) {
+    transform: translateY(-8rem);
+  }
 }

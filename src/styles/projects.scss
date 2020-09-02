@@ -1,0 +1,52 @@
+.project-wrapper {
+  margin: 5rem 0 0 20rem;
+  color: var(--black-color);
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+  .project {
+    display: flex;
+    margin-bottom: 7rem;
+    img {
+      width: 40rem;
+      height: 22rem;
+      object-position: center;
+      object-fit: cover;
+    }
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 40rem;
+      margin-left: 3rem;
+      h2 {
+        font-size: 3rem;
+        color: var(--primary-color);
+      }
+      p {
+        font-size: 2rem;
+      }
+      a,
+      a:active {
+        font-size: 1.5rem;
+        color: var(--black-color);
+        text-decoration: none;
+        margin-right: 2rem;
+        &:hover {
+          color: var(--primary-color);
+          border-bottom: 2px solid var(--primary-color);
+        }
+      }
+    }
+  }
+  .more-msg {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    a {
+      color: var(--primary-color);
+    }
+  }
+}
