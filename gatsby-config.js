@@ -6,5 +6,9 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ["gatsby-plugin-sass"],
+//   siteMetaData:{
+//       title:"Sandeep Chahal",
+//       description:"Sandeep Chahal portfolio. A full-satck developer, passionate about technology."
+//   },
+  plugins: ["gatsby-plugin-sass","gatsby-plugin-react-helmet"],
 }
