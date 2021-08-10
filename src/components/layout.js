@@ -19,6 +19,15 @@ export default ({ children }) => {
           content="Sandeep, Sandeep Singh, Sandeep Chahal, Sandeep Singh Chahal"
         />
         <meta name="author" content="Sandeep Chahal" />
+        <meta property="og:title" content="Sandeep Chahal's Portfolio" />
+        <meta
+          property="og:description"
+          content="Sandeep Chahal portfolio. A full-satck developer, passionate about technology."
+        />
+        <meta
+          property="og:image"
+          content="https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Sunglasses&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Smile&skinColor=Tanned"
+        />
       </Helmet>
       <Nav />
       <PageTransition>
