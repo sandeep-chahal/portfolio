@@ -1,24 +1,24 @@
 [
   {
-    "title": "Medium Clone",
-    "summary": "Clone of a popular blogging site medium with authentication and markdown.",
-    "image": "https://cdn-images-1.medium.com/max/500/1*s_mIvKbJWt4NYgc-h0Xmfw.png",
-    "github": "https://github.com/sandeep-chahal/medium-clone",
-    "live": ""
+    "title": "DevLogs",
+    "summary": "DevLogs is a developer blogging website, where developers can post blogs and also raise money for their startup.",
+    "image": "https://i.imgur.com/2wb2h7N.png",
+    "github": "https://github.com/sandeep-chahal/logs",
+    "live": "https://logs.vercel.app/"
   },
   {
-    "title": "Book Store",
-    "summary": "E-commerce website to sell and buy any book online using stripe payment.",
-    "image": "https://i.ibb.co/4F0J0TC/morning-brew-sb-Iw-BLNi29-A-unsplash.jpg",
-    "github": "https://github.com/sandeep-chahal/bookstore-nodejs",
-    "live": "http://nodejs-book-store.herokuapp.com/"
+    "title": "Chip 8 Emulator",
+    "summary": "Emulator of Chip 8 using typescript and html canvas.",
+    "image": "https://i.imgur.com/Mtazu7o.png",
+    "github": "https://github.com/sandeep-chahal/chip-8-emulator",
+    "live": "https://chip8.vercel.app/"
   },
   {
-    "title": "Corona Virus Tracker",
-    "summary": "Check corona virus cases in any country with graphs nad maps. Updated every few minutes.",
-    "image": "https://i.ibb.co/rynWTFT/martin-sanchez-j2c7yf223-Mk-unsplash.jpg",
-    "github": "https://github.com/sandeep-chahal/corona-virus-live",
-    "live": "https://covid-live.netlify.app/"
+    "title": "DiscBrake",
+    "summary": "DiscBrake is an client side video encoding app. It uses ffmpeg based web assembly library to encode videos on the client side.",
+    "image": "https://i.imgur.com/TuIjqZg.png",
+    "github": "https://github.com/sandeep-chahal/discbrake",
+    "live": "http://discbrake.vercel.app/"
   },
   {
     "title": "Discord Clone",
@@ -26,5 +26,12 @@
     "image": "https://i.ibb.co/xLfNR6J/1-96-QTHkf1-C0iz-F9zx-H-x3-A.png",
     "github": "https://github.com/sandeep-chahal/discord-clone",
     "live": "https://discordclone.netlify.app/"
+  },
+  {
+    "title": "Space Invaders",
+    "summary": "Classic Space Invaders game using python pygame library.",
+    "image": "https://camo.githubusercontent.com/623f5ca20ac77e3ec0a571134963022e49e282a829fcb7be03c7562b66cac919/68747470733a2f2f692e696d6775722e636f6d2f6e736d3474666f2e6a70672535422f696d67253544",
+    "github": "https://github.com/sandeep-chahal/space-invaders",
+    "live": ""
   }
 ]

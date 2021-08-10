@@ -43,7 +43,7 @@ export default function Home() {
         </div>
         <div className="btns">
           <a
-            href="https://portflio.imfast.io/Sandeep_Chahal_Resume.pdf"
+            href="https://docs.google.com/document/d/1Vxj2h9B1toIBewGXXL4lwOSxoNLTsFyP34s6K_k05Vo/edit?usp=sharing"
             target="_blank"
             className="outlined-btn"
           >
