@@ -6,9 +6,18 @@
 
 module.exports = {
   /* Your site config here */
-//   siteMetaData:{
-//       title:"Sandeep Chahal",
-//       description:"Sandeep Chahal portfolio. A full-satck developer, passionate about technology."
-//   },
-  plugins: ["gatsby-plugin-sass","gatsby-plugin-react-helmet"],
+  //   siteMetaData:{
+  //       title:"Sandeep Chahal",
+  //       description:"Sandeep Chahal portfolio. A full-satck developer, passionate about technology."
+  //   },
+  plugins: [
+    "gatsby-plugin-sass",
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-page-transitions",
+      options: {
+        transitionTime: 500,
+      },
+    },
+  ],
 }
