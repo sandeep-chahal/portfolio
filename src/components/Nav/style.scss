@@ -46,14 +46,22 @@
         text-decoration: none;
         opacity: 0.7;
         color: var(--black-color);
+        transition: all 0.2s ease-out;
 
         &:visited,
-        a:active {
+        &:active {
           color: var(--black-color);
           text-decoration: none;
         }
+       
         &:hover {
           opacity: 1;
+          color: var(--primary-color);
+          transform: translateY(-3px);
+        }
+         &:active {
+          transform: translateY(3px);
+
         }
         img {
           width: 3.2rem;
