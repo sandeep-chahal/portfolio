@@ -1,10 +1,24 @@
 [
   {
+    "title": "Crypto Chitahs",
+    "summary": "A custom website for a NFT collection with a custom marketplace where users can mint new NFTs and then sell on any other platform like Opensea. It is built in a way that it consumes very low fee and resources. Nextjs framework is used to create the website, which means it is fast and SEO friendly with beautiful animations.",
+    "image": "https://i.imgur.com/scnhKJ2.png",
+    "github": "https://github.com/sandeep-chahal/Crypto_Chitahs",
+    "live": "https://crypto-chitahs.vercel.app/"
+  },
+  {
     "title": "DevLogs",
-    "summary": "DevLogs is a developer blogging website, where developers can post blogs and also raise money for their startup.",
+    "summary": "This website was built using Next.js and MongoDB. Next.js is a React framework that allows developers to create production-grade websites. The website is server side rendered which means it's fast and good for SEO unlike other React projects which are client side rendered and very poor in SEO.",
     "image": "https://i.imgur.com/2wb2h7N.png",
     "github": "https://github.com/sandeep-chahal/logs",
     "live": "https://logs.vercel.app/"
+  },
+  {
+    "title": "SandRipper",
+    "summary": "SandRipper is a web tool that allows users to extract texture from images. It is a simple, easy-to-use tool that can be used to create high-quality textures for use in 3d Modeling. The tool is used by more than 1000 users each month.",
+    "image": "https://i.imgur.com/KlJmd5V.png",
+    "github": "",
+    "live": "https://sandripper.vercel.app/"
   },
   {
     "title": "Chip 8 Emulator",
