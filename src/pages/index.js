@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import "../styles/home.scss"
-import { Link } from "gatsby"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -43,14 +42,14 @@ export default function Home() {
         </div>
         <div className="btns">
           <a
-            href="https://docs.google.com/document/d/1Vxj2h9B1toIBewGXXL4lwOSxoNLTsFyP34s6K_k05Vo/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1MMQ8ii4K_CsObbgNmRFstVju4ly8Yi19IhiXGLQwurE/edit?usp=sharing"
             target="_blank"
             className="outlined-btn"
           >
             Resume
           </a>
-          <Link to="/Contact" className="filled-btn">
-            Contact
+          <Link href="/Contact" className="filled-btn">
+            <a>Contact</a>
           </Link>
         </div>
       </div>

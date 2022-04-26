@@ -1,13 +1,11 @@
 import React from "react"
-import "../styles/index.scss"
 import Nav from "./Nav"
-import { Helmet } from "react-helmet"
-import PageTransition from "gatsby-plugin-page-transitions"
+import Head from "next/head"
 
 export default ({ children }) => {
   return (
     <div className="layout">
-      <Helmet>
+      <Head>
         <meta charSet="utf-8" />
         <title>Sandeep Chahal</title>
         <meta
@@ -28,11 +26,9 @@ export default ({ children }) => {
           property="og:image"
           content="https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Sunglasses&facialHairType=Blank&clotheType=Hoodie&clotheColor=Black&eyeType=Happy&eyebrowType=FlatNatural&mouthType=Smile&skinColor=Tanned"
         />
-      </Helmet>
+      </Head>
       <Nav />
-      <PageTransition>
-        <main>{children}</main>
-      </PageTransition>
+      <main>{children}</main>
     </div>
   )
 }

@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import "../styles/contact.scss"
 
 export default class MyForm extends React.Component {
   constructor(props) {
