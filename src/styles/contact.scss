@@ -3,7 +3,7 @@
   flex-direction: column;
   margin-top: 10rem;
   margin-left: 22vw;
-  color: var(--black-color);
+  color: var(--white-color);
   text-align: left;
   @media (max-width: 600px) {
     margin: 0;
@@ -43,6 +43,15 @@
     @media (max-width: 600px) {
       width: 100%;
       margin-bottom: 2.5rem;
+    }
+  }
+  input,
+  textarea {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--white-color);
+    border-radius: 5px;
+    &::placeholder {
+      color: var(--white-color);
     }
   }
 

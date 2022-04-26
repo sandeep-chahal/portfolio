@@ -1,10 +1,9 @@
 import React from "react"
-import Layout from "../components/layout"
 import Link from "next/link"
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <div className="home">
         <h1>
           <div>
@@ -19,12 +18,13 @@ export default function Home() {
           </div>
         </h1>
         <p>
-          A <span className="highlight">full-stack developer</span>, passionate
-          about technology, solving problems and eager to learn new things. I
-          love writing{" "}
-          <span className="highlight">clean and efficient code</span>. If you
-          don't see green dots on github contributions chart that means am
-          trying out new stuff.
+          I am a full stack web and blockchain developer with a passion for
+          learning new technologies. I am a quick learner and have a strong
+          desire to stay up-to-date with the latest trends in web and blockchain
+          development. I am also very curious and always looking for new ways to
+          solve problems. I have a strong belief that blockchain technology will
+          shape the future of the web and I am very excited to be part of this
+          growing industry.
         </p>
         <div className="social-links">
           <a target="_blank" href="https://github.com/sandeep-chahal">
@@ -48,11 +48,11 @@ export default function Home() {
           >
             Resume
           </a>
-          <Link href="/Contact" className="filled-btn">
-            <a>Contact</a>
+          <Link href="/Contact">
+            <a className="filled-btn">Contact</a>
           </Link>
         </div>
       </div>
-    </Layout>
+    </>
   )
 }

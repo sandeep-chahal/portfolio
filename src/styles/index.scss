@@ -6,10 +6,10 @@
 }
 
 :root {
-  --nav-bg-color: rgb(250, 250, 250);
-  --gray-color: rgb(228, 228, 228);
-  --secondary-color: #F4B41A;
-  --primary-color: #2F2F2B;
+  --nav-bg-color: #fff;
+  --gray-color: #e4e4e4;
+  --secondary-color: #f4b41a;
+  --primary-color: #a71e4a;
   --black-color: #333;
   --white-color: #fff;
 }
@@ -30,6 +30,7 @@ html {
 }
 
 main {
+  z-index: 50;
   @media (max-width: 600px) {
     padding: 1rem 2rem;
   }

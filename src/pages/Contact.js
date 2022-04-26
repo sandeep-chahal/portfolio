@@ -1,5 +1,4 @@
 import React from "react"
-import Layout from "../components/layout"
 
 export default class MyForm extends React.Component {
   constructor(props) {
@@ -13,7 +12,7 @@ export default class MyForm extends React.Component {
   render() {
     const { status } = this.state
     return (
-      <Layout>
+      <>
         <form
           className="contact-form"
           onSubmit={this.submitForm}
@@ -33,7 +32,7 @@ export default class MyForm extends React.Component {
             {status === "ERROR" && <p>Ooops! There was an error.</p>}
           </div>
         </form>
-      </Layout>
+      </>
     )
   }
 
