@@ -1,5 +1,12 @@
 [
   {
+    "title": "HornBill Token",
+    "summary": "ERC20 token, pegged to Dai token on Kovan testnet. Multiple wallet connect options, Built using Nextjs, Typescript, Solidity, Truffle, Web3js.",
+    "image": "https://i.ibb.co/fnDRTb1/Screenshot-2022-05-13-093427.png",
+    "github": "https://github.com/sandeep-chahal/hornbill_token",
+    "live": "https://hornbill-token.vercel.app/"
+  },
+  {
     "title": "Crypto Chitahs",
     "summary": "A custom website for a NFT collection with a custom marketplace where users can mint new NFTs and then sell on any other platform like Opensea. It is built in a way that it consumes very low fee and resources. Nextjs framework is used to create the website, which means it is fast and SEO friendly with beautiful animations.",
     "image": "https://i.imgur.com/scnhKJ2.png",
